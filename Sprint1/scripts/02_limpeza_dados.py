@@ -7,9 +7,7 @@ import sqlite3  # Banco de dados SQLite
 import os  # Interage com o sistema operacional, para verificar se algum arquivo existe, etc.
 from datetime import datetime  # Trabalhar com data e horas
 
-print("=" * 50)
 print("INICIANDO LIMPEZA DOS DADOS")
-print("=" * 50)
 
 # Verificar se o arquivo existe
 if not os.path.exists('dados/ecom_data_bruto.csv'):
@@ -105,9 +103,7 @@ for col in df.select_dtypes(include=['object', 'string']).columns:  # Selecionar
 print(f"Após strip: {len(df)} linhas")
 
 # Resumo final do dataframe limpo
-print("\n" + "=" * 50)
-print("DADOS LIMPOS COM SUCESSO!")
-print("=" * 50)
+print("\nDADOS LIMPOS COM SUCESSO!")
 print(f"Total final: {len(df)} linhas")
 print(f"Colunas: {list(df.columns)}")
 print(f"Período: {df['data_pedido'].min()} até {df['data_pedido'].max()}")

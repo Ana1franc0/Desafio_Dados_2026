@@ -1,0 +1,16 @@
+============================================================
+RESUMO DA ANÁLISE DE OUTLIERS
+============================================================
+
+Total de pedidos analisados: 5,500
+Outliers identificados: 59 (1.07%)
+
+Estatísticas dos outliers:
+  Valor mínimo: R$ 9,397.30
+  Valor máximo: R$ 9,988.50
+  Valor médio: R$ 9,664.29
+  Valor total: R$ 570,193.25
+
+Limites de detecção:
+  Limite inferior: R$ -3,851.91
+  Limite superior: R$ 9,379.86

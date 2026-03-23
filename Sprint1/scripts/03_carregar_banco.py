@@ -3,9 +3,7 @@ import pandas as pd  # -> Manipulação da dataframes
 import sqlite3  # -> Comunicação com o banco de dados
 import os
 
-print("=" * 50)
 print("CARREGANDO DADOS PARA O BANCO DE DADOS")
-print("=" * 50)
 
 # Verificação para ver se o arquivo com dados limpos existe
 if not os.path.exists('dados/ecom_data_limpo.csv'):

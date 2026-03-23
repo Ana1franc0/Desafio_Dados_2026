@@ -1,0 +1,159 @@
+======================================================================
+ESTATÍSTICAS DESCRITIVAS - ANÁLISE COMPLETA
+Data da análise: 20/03/2026 12:02
+======================================================================
+
+1. INFORMAÇÕES GERAIS DO BANCO
+--------------------------------------------------
+Total de registros no banco: 5,500
+Período dos dados: 2025-03-11 até 2026-03-11
+Dias de operação: 365
+Clientes únicos: 900
+Produtos únicos: 4,095
+Categorias únicas: 7
+Métodos de pagamento: 5
+
+2. ANÁLISE POR STATUS DO PEDIDO
+--------------------------------------------------
+Entregue: 1,881 pedidos (34.2%)
+Processando: 1,836 pedidos (33.4%)
+Cancelado: 1,783 pedidos (32.4%)
+
+3. ANÁLISE FINANCEIRA
+--------------------------------------------------
+Faturamento total (todos pedidos): R$ 16,293,850.49
+Faturamento (apenas entregues): R$ 5,549,129.62
+Faturamento (cancelados): R$ 5,301,854.08
+PERDA POR CANCELAMENTO: R$ 5,301,854.08
+Ticket médio (todos pedidos): R$ 2,962.52
+Ticket médio (entregues): R$ 2,950.10
+Ticket médio (cancelados): R$ 2,973.56
+Pedido mais caro: R$ 9,988.50
+Pedido mais barato: R$ 57.28
+Desvio padrão dos valores: R$ 2,340.95
+
+4. ANÁLISE DE QUANTIDADES
+--------------------------------------------------
+Total de itens vendidos: 15,797
+Média de itens por pedido: 2.87
+Máximo de itens em um pedido: 5
+Mínimo de itens em um pedido: 1
+
+5. ESTATÍSTICAS DETALHADAS (PANDAS)
+--------------------------------------------------
+       preco_total   quantidade
+count  5500.000000  5500.000000
+mean   2962.518271     2.872182
+std    2340.950721     1.449090
+min      57.280000     1.000000
+25%    1110.000000     1.000000
+50%    2207.020000     3.000000
+75%    4417.942500     4.000000
+max    9988.500000     5.000000
+
+6. TOP 10 CLIENTES QUE MAIS GASTARAM
+--------------------------------------------------
+Ravy Montenegro: R$ 9,988.50
+Luísa Abreu: R$ 9,984.95
+Beatriz Vargas: R$ 9,956.45
+Isis Aparecida: R$ 9,892.40
+Isabel Barros: R$ 9,887.50
+Sr. Murilo Fogaça: R$ 9,876.15
+Srta. Marina Aparecida: R$ 9,861.20
+Thomas Duarte: R$ 9,839.80
+Sr. Liam Cassiano: R$ 9,830.95
+Gabriela Lopes: R$ 9,796.10
+
+7. TOP 10 PRODUTOS MAIS VENDIDOS
+--------------------------------------------------
+Luvas de academia: 137 unidades
+Vestido: 114 unidades
+Livros de distopia: 110 unidades
+Livros de drama: 106 unidades
+Tênis de academia: 97 unidades
+Histórias em quadrinho: 89 unidades
+Scarpin: 85 unidades
+Coturno: 82 unidades
+Chinelo: 81 unidades
+Livros de programação: 77 unidades
+
+8. ANÁLISE POR CATEGORIA (Top 5 por faturamento)
+--------------------------------------------------
+Livros:
+   Faturamento: R$ 950,675.91
+   Unidades vendidas: 925.0
+   Pedidos: 312.0
+
+Esportes:
+   Faturamento: R$ 810,420.97
+   Unidades vendidas: 780.0
+   Pedidos: 265.0
+
+Beleza:
+   Faturamento: R$ 778,271.30
+   Unidades vendidas: 778.0
+   Pedidos: 271.0
+
+Roupas:
+   Faturamento: R$ 765,692.07
+   Unidades vendidas: 733.0
+   Pedidos: 253.0
+
+Eletrônicos:
+   Faturamento: R$ 758,938.06
+   Unidades vendidas: 788.0
+   Pedidos: 266.0
+
+9. ANÁLISE MENSAL DE VENDAS
+--------------------------------------------------
+2025-03: 125.0 pedidos - R$ 402,411.55
+2025-04: 138.0 pedidos - R$ 418,146.94
+2025-05: 159.0 pedidos - R$ 494,076.22
+2025-06: 147.0 pedidos - R$ 404,522.42
+2025-07: 146.0 pedidos - R$ 438,570.64
+2025-08: 154.0 pedidos - R$ 474,619.93
+2025-09: 151.0 pedidos - R$ 430,360.53
+2025-10: 147.0 pedidos - R$ 412,748.09
+2025-11: 160.0 pedidos - R$ 467,774.18
+2025-12: 161.0 pedidos - R$ 449,978.09
+2026-01: 171.0 pedidos - R$ 520,538.94
+2026-02: 148.0 pedidos - R$ 441,636.49
+2026-03: 74.0 pedidos - R$ 193,745.60
+
+10. ANÁLISE POR MÉTODO DE PAGAMENTO
+--------------------------------------------------
+Boleto:
+   Total: R$ 1,111,397.76
+   Pedidos: 386.0
+   Ticket médio: R$ 2,879.27
+
+Cartão De Crédito:
+   Total: R$ 1,140,107.58
+   Pedidos: 385.0
+   Ticket médio: R$ 2,961.32
+
+Cartão De Débito:
+   Total: R$ 1,143,125.82
+   Pedidos: 376.0
+   Ticket médio: R$ 3,040.23
+
+Pix:
+   Total: R$ 959,483.55
+   Pedidos: 340.0
+   Ticket médio: R$ 2,822.01
+
+Transferência:
+   Total: R$ 1,195,014.91
+   Pedidos: 394.0
+   Ticket médio: R$ 3,033.03
+
+11. PRINCIPAIS INSIGHTS IDENTIFICADOS
+--------------------------------------------------
+ALERTA: Taxa de cancelamento de 32.4% - muito acima do mercado (ideal <10%)
+PERDA FINANCEIRA: R$ 5,301,854.08 (32.5% do faturamento potencial)
+OPORTUNIDADE: Reduzir cancelamentos para 10% aumentaria faturamento em R$ 3,711,297.86
+CLIENTES VIP: 10 clientes concentram parte significativa da receita
+
+======================================================================
+FIM DA ANÁLISE
+======================================================================

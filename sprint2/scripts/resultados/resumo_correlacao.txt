@@ -1,0 +1,16 @@
+============================================================
+RESUMO DA ANÁLISE DE CORRELAÇÃO
+============================================================
+
+Matriz de Correlação:
+             preco_total  quantidade     ano     mes
+preco_total       1.0000      0.6424  0.0036 -0.0205
+quantidade        0.6424      1.0000  0.0140 -0.0172
+ano               0.0036      0.0140  1.0000 -0.6812
+mes              -0.0205     -0.0172 -0.6812  1.0000
+
+Interpretação:
+Correlação preço_total x quantidade: 0.6424
+Classificação: MODERADA POSITIVA
+Conclusão: Há relação entre quantidade e valor.
+Ação sugerida: Testar estratégias de upsell.

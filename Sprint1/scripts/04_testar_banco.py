@@ -2,9 +2,7 @@ import sqlite3
 import pandas as pd
 import os
 
-print("=" * 50)
 print("TESTANDO O BANCO DE DADOS")
-print("=" * 50)
 
 # Verificando se o banco existe
 if not os.path.exists('banco/ecommerce.db'):
@@ -91,6 +89,4 @@ print(f"Preço nulo: {nulos['nulos_preco'][0]}")
 
 conexao.close
 
-print("=" * 50)
 print("TESTES CONCLUÍDOS COM SUCESSO!")
-print("=" * 50)

@@ -1,0 +1,20 @@
+RESUMO DA ANÁLISE RFM
+Total de clientes analisados: 5,500
+
+DISTRIBUIÇÃO DOS SEGMENTOS:
+  Perdido: 1142 clientes (20.8%)
+  Em risco: 1058 clientes (19.2%)
+  Leal: 990 clientes (18.0%)
+  Campeão: 852 clientes (15.5%)
+  Potencial: 813 clientes (14.8%)
+  Novo: 645 clientes (11.7%)
+
+
+RECOMENDAÇÕES POR SEGMENTO:
+----------------------------------------
+CAMPEÕES: Manter como VIP, benefícios exclusivos, pedir indicações
+LEAL: Programa de fidelidade, cupons para aumentar ticket
+NOVO: Nutrir com conteúdo, segunda compra com desconto
+EM RISCO: Campanha de reativação URGENTE, cupom forte
+PERDIDO: Tentar reativar 1x, depois focar em novos
+POTENCIAL: Estratégia de engajamento e conversão

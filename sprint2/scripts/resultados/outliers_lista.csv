@@ -1,0 +1,60 @@
+﻿id_pedido,data_pedido,id_cliente,nome_cliente,email_cliente,cidade_cliente,estado_cliente,id_produto,nome_produto,categoria,quantidade,preco_unitario,preco_total,metodo_pagamento,status_pedido,ano,mes,dia_semana
+PEDIDO-1036,2026-03-06,CLIENTE-869,Luísa Abreu,felipe87@example.com,Camargo,SE,PRODUTO-1152,Adaptador USB,Eletrônicos,5,1996.99,9984.95,Cartão De Crédito,Entregue,2026,3,Friday
+PEDIDO-1189,2025-05-23,CLIENTE-903,Sr. Theo Sousa,osiqueira@example.com,Nogueira,CE,PRODUTO-4178,Livros de negócios,Livros,5,1969.66,9848.3,Cartão De Débito,Processando,2025,5,Friday
+PEDIDO-1546,2025-11-08,CLIENTE-364,Isadora da Cunha,varaujo@example.com,Casa Grande,PA,PRODUTO-9464,Regata,Roupas,5,1940.03,9700.15,Cartão De Crédito,Cancelado,2025,11,Saturday
+PEDIDO-1578,2025-07-15,CLIENTE-604,Nicolas Ramos,ian08@example.com,Pinto,RR,PRODUTO-1108,Organizador de mesa,Casa E Decoração,5,1918.09,9590.45,Cartão De Débito,Processando,2025,7,Tuesday
+PEDIDO-1673,2025-11-30,CLIENTE-489,Sophie Câmara,aviana@example.org,Da Luz Das Pedras,RO,PRODUTO-6126,Faixa elástica de treino,Esportes,5,1881.32,9406.6,Transferência,Cancelado,2025,11,Sunday
+PEDIDO-1852,2025-06-13,CLIENTE-222,Maysa da Costa,nfarias@example.net,Da Cunha,BA,PRODUTO-7468,Regata,Roupas,5,1956.26,9781.3,Boleto,Entregue,2025,6,Friday
+PEDIDO-1907,2025-07-22,CLIENTE-440,Sra. Ana Mendonça,martinsgustavo-henrique@example.net,Mendes De Azevedo,AL,PRODUTO-8715,Blusa de frio,Roupas,5,1881.68,9408.4,Transferência,Cancelado,2025,7,Tuesday
+PEDIDO-1961,2025-09-14,CLIENTE-254,Matteo Camargo,oliviaaragao@example.org,Freitas Verde,PB,PRODUTO-1947,Velas aromáticas,Casa E Decoração,5,1946.69,9733.45,Cartão De Débito,Processando,2025,9,Sunday
+PEDIDO-1998,2025-08-27,CLIENTE-191,Ravy Montenegro,anthony-gabriel87@example.com,Rocha,RJ,PRODUTO-3014,Livros de fantasia,Livros,5,1997.7,9988.5,Cartão De Débito,Entregue,2025,8,Wednesday
+PEDIDO-2023,2026-02-01,CLIENTE-161,Pietro Silveira,bryanvieira@example.com,Mendes Verde,AM,PRODUTO-6106,Pijama,Roupas,5,1921.5,9607.5,Pix,Processando,2026,2,Sunday
+PEDIDO-2047,2025-04-16,CLIENTE-356,Bryan Cavalcante,acirino@example.org,Souza De Goiás,CE,PRODUTO-5496,Sandália,Calçados,5,1996.09,9980.45,Transferência,Processando,2025,4,Wednesday
+PEDIDO-2123,2026-01-19,CLIENTE-451,Ana Vitória Sá,joaogomes@example.com,Vargas Grande,BA,PRODUTO-7252,Livros de mistério,Livros,5,1934.18,9670.9,Cartão De Débito,Entregue,2026,1,Monday
+PEDIDO-2192,2025-07-10,CLIENTE-233,Vitória Lopes,nmontenegro@example.net,Macedo,PI,PRODUTO-2971,Bola de futebol,Esportes,5,1938.24,9691.2,Boleto,Entregue,2025,7,Thursday
+PEDIDO-2247,2025-04-03,CLIENTE-769,Maria Cecília Cardoso,ngarcia@example.org,Freitas,AL,PRODUTO-3638,Casaco,Roupas,5,1984.94,9924.7,Transferência,Cancelado,2025,4,Thursday
+PEDIDO-2475,2025-08-21,CLIENTE-397,Maria Flor Teixeira,lucas-gabriel12@example.com,Da Conceição,AM,PRODUTO-4349,Organizador de mesa,Casa E Decoração,5,1906.39,9531.95,Pix,Cancelado,2025,8,Thursday
+PEDIDO-2534,2025-03-27,CLIENTE-139,Antônio Araújo,henry-gabrielfogaca@example.com,Dias De Barbosa,AM,PRODUTO-2656,Regata,Roupas,5,1961.52,9807.6,Cartão De Crédito,Processando,2025,3,Thursday
+PEDIDO-2559,2025-12-08,CLIENTE-798,Beatriz Vargas,wda-cruz@example.com,Da Luz,PE,PRODUTO-7657,Capacete para ciclismo,Esportes,5,1991.29,9956.45,Cartão De Débito,Entregue,2025,12,Monday
+PEDIDO-2574,2025-05-18,CLIENTE-437,Léo Lima,cfreitas@example.org,Castro De Azevedo,PB,PRODUTO-2100,Almofada,Casa E Decoração,5,1925.23,9626.15,Transferência,Entregue,2025,5,Sunday
+PEDIDO-2740,2025-08-22,CLIENTE-828,Thomas Duarte,cnovais@example.net,Barbosa,CE,PRODUTO-2361,Extensão de cílios,Beleza,5,1967.96,9839.8,Cartão De Débito,Entregue,2025,8,Friday
+PEDIDO-3062,2025-05-08,CLIENTE-894,Alice Farias,fda-rosa@example.net,Mendes Do Campo,SE,PRODUTO-7622,Livros infantis,Livros,5,1923.22,9616.1,Cartão De Crédito,Processando,2025,5,Thursday
+PEDIDO-3156,2025-03-20,CLIENTE-937,Maya Sá,isabelgarcia@example.org,Monteiro Verde,CE,PRODUTO-3265,Tênis de academia,Calçados,5,1894.32,9471.6,Transferência,Entregue,2025,3,Thursday
+PEDIDO-3205,2025-03-11,CLIENTE-128,Caleb Fernandes,vitor-gabriel23@example.com,Melo,RS,PRODUTO-5251,Bola de basquete,Esportes,5,1890.24,9451.2,Cartão De Crédito,Entregue,2025,3,Tuesday
+PEDIDO-3207,2025-08-07,CLIENTE-555,Mirella Campos,qcastro@example.net,Teixeira,AP,PRODUTO-9806,HD externo,Eletrônicos,5,1930.94,9654.7,Transferência,Entregue,2025,8,Thursday
+PEDIDO-3338,2025-09-25,CLIENTE-134,Eloah Cavalcante,osiqueira@example.net,Vasconcelos,SP,PRODUTO-7677,Controle de videogame,Eletrônicos,5,1884.11,9420.55,Cartão De Crédito,Cancelado,2025,9,Thursday
+PEDIDO-3360,2025-03-22,CLIENTE-816,Gabriela Lopes,leticia08@example.net,Fernandes,AM,PRODUTO-4538,Abajur,Casa E Decoração,5,1959.22,9796.1,Transferência,Entregue,2025,3,Saturday
+PEDIDO-3395,2025-11-20,CLIENTE-382,Sr. Murilo Fogaça,da-conceicaoayla@example.net,Lopes,PR,PRODUTO-4925,Blusa de frio,Roupas,5,1975.23,9876.15,Pix,Entregue,2025,11,Thursday
+PEDIDO-3463,2025-04-23,CLIENTE-445,Anthony Gabriel Moraes,fda-costa@example.com,Oliveira,SP,PRODUTO-8722,Bola de futebol,Esportes,5,1882.84,9414.2,Cartão De Crédito,Cancelado,2025,4,Wednesday
+PEDIDO-3537,2025-07-16,CLIENTE-586,Isabel Barros,ana-carolina83@example.net,Castro,PB,PRODUTO-7750,Pijama,Roupas,5,1977.5,9887.5,Pix,Entregue,2025,7,Wednesday
+PEDIDO-3649,2025-11-28,CLIENTE-124,Maria Luiza Araújo,pedro-lucascaldeira@example.org,Garcia,SE,PRODUTO-4780,Vaso de planta,Casa E Decoração,5,1954.02,9770.1,Transferência,Entregue,2025,11,Friday
+PEDIDO-3660,2025-08-21,CLIENTE-654,Raul Cassiano,cda-mata@example.net,Borges Das Pedras,PB,PRODUTO-6518,Lipliner,Beleza,5,1978.53,9892.65,Cartão De Crédito,Cancelado,2025,8,Thursday
+PEDIDO-3664,2025-07-24,CLIENTE-365,Pedro Duarte,nicole98@example.net,Mendonça,RN,PRODUTO-9212,Bota,Calçados,5,1927.56,9637.8,Pix,Entregue,2025,7,Thursday
+PEDIDO-3787,2025-05-15,CLIENTE-340,Srta. Maria Fernanda Cassiano,jmoura@example.com,Jesus,AL,PRODUTO-3787,Secador de cabelo,Beleza,5,1973.05,9865.25,Cartão De Débito,Processando,2025,5,Thursday
+PEDIDO-3866,2025-12-07,CLIENTE-490,Eduardo Pereira,joao-gabrielvargas@example.com,Da Conceição Do Sul,AM,PRODUTO-8595,Livros infantis,Livros,5,1941.8,9709.0,Cartão De Débito,Processando,2025,12,Sunday
+PEDIDO-4140,2026-03-08,CLIENTE-817,Sr. Brayan Martins,elisabarbosa@example.org,Alves De Câmara,BA,PRODUTO-6888,Luvas de academia,Esportes,5,1962.06,9810.3,Transferência,Processando,2026,3,Sunday
+PEDIDO-4265,2025-05-23,CLIENTE-983,Maria Júlia Rezende,bruno94@example.org,Siqueira Do Campo,DF,PRODUTO-1595,Webcam,Eletrônicos,5,1896.41,9482.05,Boleto,Entregue,2025,5,Friday
+PEDIDO-4291,2025-03-28,CLIENTE-334,Mariah Ribeiro,duartenatalia@example.net,Lopes,AP,PRODUTO-6786,Luvas de academia,Esportes,5,1892.16,9460.8,Boleto,Processando,2025,3,Friday
+PEDIDO-4406,2025-08-16,CLIENTE-355,Rebeca Lima,yuri10@example.org,Abreu,PE,PRODUTO-3893,Faixa elástica de treino,Esportes,5,1892.19,9460.95,Transferência,Processando,2025,8,Saturday
+PEDIDO-4408,2025-10-31,CLIENTE-973,Heitor das Neves,pmoreira@example.com,Aparecida,PA,PRODUTO-9569,Organizador de mesa,Casa E Decoração,5,1977.96,9889.8,Transferência,Processando,2025,10,Friday
+PEDIDO-4620,2025-07-10,CLIENTE-795,Maria Isis Sampaio,luiz-fernando49@example.com,Da Costa De Teixeira,AL,PRODUTO-1688,Vestido,Roupas,5,1904.36,9521.8,Boleto,Entregue,2025,7,Thursday
+PEDIDO-4621,2025-04-26,CLIENTE-176,Enzo Rios,aragaomaria-liz@example.net,Monteiro Dos Dourados,RS,PRODUTO-1560,Livros de ficção científica,Livros,5,1939.24,9696.2,Pix,Cancelado,2025,4,Saturday
+PEDIDO-4784,2025-03-18,CLIENTE-423,Maitê Silveira,valentimmoura@example.net,Barros Da Prata,TO,PRODUTO-6673,Creme hidratante,Beleza,5,1925.26,9626.3,Boleto,Processando,2025,3,Tuesday
+PEDIDO-4999,2025-10-10,CLIENTE-107,Dr. Vicente Pastor,luisa61@example.net,Rezende,DF,PRODUTO-2412,Creme hidratante,Beleza,5,1912.8,9564.0,Boleto,Entregue,2025,10,Friday
+PEDIDO-5077,2025-07-23,CLIENTE-662,Samuel Peixoto,gustavo17@example.com,Souza,PR,PRODUTO-6334,Carregador,Eletrônicos,5,1889.6,9448.0,Cartão De Crédito,Cancelado,2025,7,Wednesday
+PEDIDO-5140,2026-03-10,CLIENTE-527,Maria Cecília Oliveira,da-mataotavio@example.org,Rocha,MT,PRODUTO-5923,Casaco,Roupas,5,1903.18,9515.9,Boleto,Entregue,2026,3,Tuesday
+PEDIDO-5278,2025-08-08,CLIENTE-110,Sabrina Mendonça,biancarocha@example.com,Machado Do Amparo,PI,PRODUTO-7207,Camiseta,Roupas,5,1880.55,9402.75,Cartão De Débito,Processando,2025,8,Friday
+PEDIDO-5431,2025-07-10,CLIENTE-908,Ayla Aragão,joao-vitor71@example.com,Leão,PE,PRODUTO-9798,Vestido,Roupas,5,1943.37,9716.85,Boleto,Cancelado,2025,7,Thursday
+PEDIDO-5493,2025-07-08,CLIENTE-567,Sabrina Sousa,fda-mota@example.com,Duarte,SP,PRODUTO-3182,Roupa íntima,Roupas,5,1928.61,9643.05,Transferência,Processando,2025,7,Tuesday
+PEDIDO-5618,2025-05-08,CLIENTE-864,Dra. Nicole Nogueira,pimentapietro@example.net,Da Luz,GO,PRODUTO-9548,Vaso de planta,Casa E Decoração,5,1935.59,9677.95,Pix,Processando,2025,5,Thursday
+PEDIDO-5639,2025-12-23,CLIENTE-454,Letícia Porto,beniciocastro@example.net,Castro Dos Dourados,SE,PRODUTO-5753,Bola de vôlei,Esportes,5,1911.41,9557.05,Boleto,Entregue,2025,12,Tuesday
+PEDIDO-5656,2025-08-14,CLIENTE-404,Sr. Liam Cassiano,ipimenta@example.net,Ribeiro,MA,PRODUTO-2314,Espelho decorativo,Casa E Decoração,5,1966.19,9830.95,Transferência,Entregue,2025,8,Thursday
+PEDIDO-5754,2026-01-09,CLIENTE-182,Srta. Marina Aparecida,sousafrancisco@example.com,Aparecida,DF,PRODUTO-7903,Esmalte,Beleza,5,1972.24,9861.2,Pix,Entregue,2026,1,Friday
+PEDIDO-5805,2026-01-13,CLIENTE-135,Isadora Rezende,daniloguerra@example.com,Abreu Da Serra,CE,PRODUTO-4434,Livros de histórias,Livros,5,1879.46,9397.3,Pix,Processando,2026,1,Tuesday
+PEDIDO-5836,2025-07-03,CLIENTE-424,Bruna Sousa,sasofia@example.org,Ferreira,PE,PRODUTO-6525,Removedor de maquiagem,Beleza,5,1880.21,9401.05,Boleto,Processando,2025,7,Thursday
+PEDIDO-5905,2025-05-30,CLIENTE-621,Davi Barros,pimentagustavo@example.net,Silveira Das Flores,MG,PRODUTO-3696,Chinelo,Calçados,5,1912.8,9564.0,Transferência,Entregue,2025,5,Friday
+PEDIDO-6297,2025-04-29,CLIENTE-676,Sra. Liz da Mota,lda-costa@example.net,Castro,ES,PRODUTO-1975,Extensão de cílios,Beleza,5,1906.5,9532.5,Cartão De Débito,Cancelado,2025,4,Tuesday
+PEDIDO-6298,2025-06-16,CLIENTE-693,Agatha Sampaio,sabreu@example.org,Silva Verde,RO,PRODUTO-3526,Sandália,Calçados,5,1897.52,9487.6,Pix,Entregue,2025,6,Monday
+PEDIDO-6347,2026-02-18,CLIENTE-804,Isis Aparecida,siqueirafrancisco@example.org,Cunha Da Praia,PI,PRODUTO-7407,Livros infantis,Livros,5,1978.48,9892.4,Transferência,Entregue,2026,2,Wednesday
+PEDIDO-6475,2026-02-26,CLIENTE-484,Enzo Ribeiro,ravi-luccafreitas@example.org,Moreira De Costela,PE,PRODUTO-5426,Tapete de yoga,Esportes,5,1943.84,9719.2,Cartão De Débito,Entregue,2026,2,Thursday
+PEDIDO-6476,2025-07-18,CLIENTE-785,Pedro Henrique Monteiro,antoniomarques@example.net,Montenegro,BA,PRODUTO-5553,Camiseta,Roupas,5,1898.32,9491.6,Boleto,Processando,2025,7,Friday
