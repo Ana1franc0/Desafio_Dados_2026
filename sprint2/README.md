@@ -11,44 +11,6 @@ Esta sprint tem como objetivo realizar uma análise exploratória completa dos d
 - Gerar insights para tomada de decisão
 
 
-## Estrutura do Projeto
-sprint_2/
-│
-├── dados/
-│ └── ecommerce.db # Banco de dados (feito Sprint 1)
-│
-├── scripts/
-│ ├── 01_estatisticas_descritivas.py # Análise estatística básica
-│ ├── 02_executar_consultas_sql.py # Consultas SQL avançadas
-│ ├── 03_outliers.py # Análise de outliers
-│ ├── 04_correlacao.py # Análise de correlação
-│ └── 05_rfm.py # Segmentação RFM
-│
-├── resultados/
-│ ├── estatisticas_descritivas.txt 
-│ ├── analise_outliers.png 
-| ├── analise_pagamento.csv
-| ├── analise_status.csv
-│ ├── analise_correlacao.png 
-| ├── estatisticas_por_segmento.csv
-| ├── matriz_correlacao.csv
-│ ├── distribuicao_segmentos.png # Distribuição RFM
-│ ├── analise_rfm_completa.csv # Classificação de clientes
-│ ├── clientes_em_risco.csv # Clientes para recuperar
-| ├── melhores_categorias.csv
-| ├── outliers_lista.csv
-│ ├── clientes_campeoes.csv 
-│ ├── top_10_clientes.csv # Top clientes por gasto
-│ ├── ranking_produtos.csv 
-| ├── resumo_correlacao.txt
-| ├── resumo_outliers.txt
-| ├── resumo_rfm.txt
-| ├── rfm_boxplot.png
-│ └── crescimento_mensal.csv 
-│
-├── insights_sprint2.md
-└── README.md # Este arquivo
-
 ## Tecnologias Utilizadas
 
 Python 3.x - Linguagem principal 

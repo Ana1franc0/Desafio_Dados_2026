@@ -98,28 +98,7 @@
 - **Táticas:** Combos, upsell, frete grátis progressivo
 
 
-## 6. Top Clientes
-
-### Top 5 Clientes que Mais Gastaram
-| Cliente | Total Gasto | Pedidos |
-|---------|-------------|---------|
-| [Nome] | R$ X | X |
-| [Nome] | R$ X | X |
-| [Nome] | R$ X | X |
-| [Nome] | R$ X | X |
-| [Nome] | R$ X | X |
-
-### Top 5 Produtos Mais Vendidos
-| Produto | Categoria | Quantidade Vendida | Receita |
-|---------|-----------|-------------------|---------|
-| [Produto] | [Categoria] | X | R$ X |
-| [Produto] | [Categoria] | X | R$ X |
-| [Produto] | [Categoria] | X | R$ X |
-| [Produto] | [Categoria] | X | R$ X |
-| [Produto] | [Categoria] | X | R$ X |
-
-
-## 7. Arquivos Gerados na Sprint 2
+## 6. Arquivos Gerados na Sprint 2
 
 | Arquivo | Descrição |
 |---------|-----------|
@@ -134,7 +113,7 @@
 | `ranking_produtos.csv` | Produtos mais vendidos |
 
 
-## 8. Próximos Passos (Sprint 3)
+## 7. Próximos Passos (Sprint 3)
 
 1. **Criar Dashboard** no Power BI/Tableau com os KPIs identificados
 2. **Monitorar** a evolução da taxa de cancelamento
