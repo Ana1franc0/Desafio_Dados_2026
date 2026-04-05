@@ -1,0 +1,131 @@
+# TechStyle Commerce - Análise Completa de Dados
+
+## Visão Geral do Projeto
+
+Este projeto implementa um pipeline completo de análise de dados para um e-commerce fictício chamado **TechStyle Commerce**
+
+**Objetivo:** Analisar 5.500+ pedidos reais (simulados) para extrair insights de negócio, criar um dashboard interativo e desenvolver um modelo preditivo de vendas.
+
+**Resultado principal:** Identificamos uma oportunidade de aumentar o faturamento em R$ 384.500/ano (30-50%) apenas reduzindo cancelamentos e reativando clientes inativos.
+
+---
+
+## 📊 Dados do Projeto 
+
+| Métrica | Valor |
+|---------|-------|
+| **Total de pedidos** | 5.500+ |
+| **Total de clientes** | ~900 |
+| **Total de produtos** | ~200 |
+| **Categorias** | 7 (Eletrônicos, Roupas, Calçados, Livros, Casa, Esportes, Beleza) |
+| **Período analisado** | 1 ano completo |
+| **Ticket médio geral** | R$ 500 - R$ 800 |
+| **Ticket médio Eletrônicos** | R$ 1.200 - R$ 2.000 |
+| **Ticket médio Livros** | R$ 50 - R$ 150 |
+| **Taxa de cancelamento** | 10% (~550 pedidos/ano) |
+| **Perda por cancelamento** | R$ 275.000/ano |
+| **Churn rate** | 60-70% |
+| **Clientes em risco/perdidos** | 40% (~360 clientes) |
+
+---
+## Como Executar o Projeto Passo a Passo
+
+### Pré-requisitos (Instalação única)
+
+```bash
+pip install pandas numpy faker matplotlib seaborn scikit-learn streamlit plotly
+```
+# Sprint 1 - Geração e Limpeza dos Dados (5.500+ pedidos)
+### - Gera o dataset com 5.500+ linhas e erros propositais
+python 01_gerar_dados.py
+
+### - Limpa os dados (remove duplicatas, trata nulos, corrige preços)
+python 02_limpeza_dados.py
+
+### - Carrega os dados limpos no banco SQLite
+python 03_carregar_banco.py
+
+### - Verifica se o banco foi criado corretamente
+python 04_testar_banco.py
+
+# Sprint 2 - Análise Exploratória (RFM, Correlações, Outliers)
+
+### - Estatísticas descritivas básicas
+python 01_estatisticas_descritivas.py
+
+### - Consultas SQL avançadas (Top clientes, produtos, categorias)
+python 02_consultas_avancadas_sql.py
+
+### - Análise de outliers (IQR, boxplots)
+python 03_outliers.py
+
+### - Matriz de correlação (quantidade x preco_total)
+python 04_correlacoes.py
+
+### - Segmentação RFM (Campeões, Leais, Risco, Perdidos)
+python 05_rfm.py
+
+### Arquivos gerados na pasta resultados/:
+
+top_10_clientes.csv - Clientes que mais gastaram
+
+ranking_produtos.csv - Produtos mais vendidos
+
+analise_outliers.png - Visualização dos outliers
+
+matriz_correlacao.csv - Correlação entre variáveis
+
+analise_rfm_completa.csv - Segmentação de 900+ clientes
+
+clientes_em_risco.csv - 25% dos clientes (prioridade para reativação)
+
+clientes_campeoes.csv - 15% clientes VIP (programa de fidelidade)
+
+# Sprint 3 - Dashboard Interativo
+streamlit run 01_dashboard.py
+
+### Funcionalidades do Dashboard:
+
+KPIs em tempo real (Faturamento, Ticket médio, Churn rate)
+
+Filtros por categoria e status do pedido
+
+Gráfico de faturamento diário 
+
+Gráfico de sazonalidade mensal 
+
+Top categorias por faturamento 
+
+Distribuição por status (Entregue, Processando, Cancelado)
+
+Métodos de pagamento mais usados
+
+# Sprint 4 - Modelo Preditivo + Storytelling
+python 01_modelo_preditivo.py
+e pdf do relatório
+
+### O que o modelo faz:
+
+Prevê o preco_total baseado em quantidade, preço unitário, categoria e método de pagamento
+
+Usa Regressão Linear com 80% treino / 20% teste
+
+Remove outliers (pedidos acima de R$ X,XXX)
+
+Gera storytelling profissional com recomendações
+
+### Arquivos gerados na pasta resultados/:
+
+metricas_modelo.txt - R², MAE, RMSE do modelo
+
+previsoes.csv - Comparação entre valor real e previsto
+
+storytelling_completo.txt - Narrativa completa para diretoria
+
+graficos/previsoes_vs_real.png - Gráfico de acurácia
+
+graficos/importancia_features.png - O que mais influencia o preço
+
+graficos/distribuicao_erros.png - Histograma dos erros
+
+### Ana Laura Dos Santos Franco - Data de conclusão: Abril de 2026
